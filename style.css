@@ -2,7 +2,7 @@
 {
     margin:0;
     padding:0;
-    box-sizing:0;
+    box-sizing:border-box;
 }
 #marblevideo
 {
@@ -31,18 +31,33 @@ video
     padding: 10%;
 }
 
+#videooverskrift a i
+{
+    background-color: black;
+    border-radius: 50px;
+    padding: 8px;
+}
+
 #videooverskrift a
 {
     color: white;
+    bottom:10px;
+    position:absolute;
 }
 
-header
+#marble
 {
-    page-break-after: always;
+    display: table-header-group;
+    height:100vh;
 }
 
 #page1
 {
-height: 100vh;
+    height: 100vh;
+}
+
+html 
+{
+    scroll-behavior: smooth;
 }
   
