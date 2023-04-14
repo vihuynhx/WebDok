@@ -1,0 +1,48 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:0;
+}
+#marblevideo
+{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+video
+{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+#videooverskrift
+{
+    text-align: center;
+    display: block;
+    color: white;
+}
+#videooverskrift h1
+{
+    color: white;
+    font-size: 5vw;
+    padding: 10%;
+}
+
+#videooverskrift a
+{
+    color: white;
+}
+
+header
+{
+    page-break-after: always;
+}
+
+#page1
+{
+height: 100vh;
+}
+  
