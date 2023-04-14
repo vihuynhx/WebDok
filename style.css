@@ -29,6 +29,8 @@ video
     color: white;
     font-size: 5vw;
     padding: 10%;
+    font-family: georama-variable, sans-serif;
+
 }
 
 #videooverskrift a i
@@ -47,6 +49,8 @@ video
 
 #marble
 {
+    margin:0;
+    padding:0;
     display: table-header-group;
     height:100vh;
 }
@@ -60,4 +64,17 @@ html
 {
     scroll-behavior: smooth;
 }
-  
+
+#page1 h1
+{
+    margin-top: 2%;
+    text-align: center;
+    color: purple;
+    font-size: 2vw;
+    font-family: georama-variable, sans-serif;
+}
+
+#toflexbox
+{
+    display: flex;
+}
