@@ -11,6 +11,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    object-fit: cover;
 }
 video
 {
@@ -21,16 +22,17 @@ video
 #videooverskrift
 {
     text-align: center;
-    display: block;
+    display: flex;
     color: white;
+    justify-content: center;
 }
+
 #videooverskrift h1
 {
     color: white;
     font-size: 5vw;
-    padding: 10%;
     font-family: georama-variable, sans-serif;
-
+    margin: 0 10% 0 10%;
 }
 
 #videooverskrift a i
@@ -43,16 +45,17 @@ video
 #videooverskrift a
 {
     color: white;
-    bottom:10px;
-    position:absolute;
+    bottom: 10px;
+    position: absolute;
 }
 
 #marble
 {
-    margin:0;
-    padding:0;
-    display: table-header-group;
-    height:100vh;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 #page1
