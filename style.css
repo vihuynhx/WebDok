@@ -30,7 +30,7 @@ video
 #videooverskrift h1
 {
     color: white;
-    font-size: 5vw;
+    font-size: 4.5vw;
     font-family: georama-variable, sans-serif;
     margin: 0 10% 0 10%;
 }
@@ -58,9 +58,9 @@ video
     align-items: center;
 }
 
-#page1
+#intro
 {
-    height: 100vh;
+    padding-bottom: 3%;
 }
 
 html 
@@ -68,16 +68,91 @@ html
     scroll-behavior: smooth;
 }
 
-#page1 h1
+#intro h1
 {
-    margin-top: 2%;
+    margin:2%;
     text-align: center;
     color: purple;
-    font-size: 2vw;
+    font-size: 2.7vw;
     font-family: georama-variable, sans-serif;
 }
+
+#underrubrik
+{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 2vw;
+    font-family: poppins, sans-serif;
+    line-height: 1.6;
+}
+
 
 #toflexbox
 {
     display: flex;
+    font-size: 1.6vw;
+    font-family: poppins, sans-serif;
+    line-height: 2;
+    padding-bottom: 5%;
+}
+
+#venstrekolonne
+{
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 5%;
+
+}
+
+#hojrekolonne
+{
+    width: 50%;
+    padding-right: 10%;
+    padding-left: 5%;
+}
+
+
+
+#hojrekolonne img
+{
+    width: 70%;
+    margin: auto;
+    display: block;
+    padding: auto;
+    padding-bottom: 10%;
+    padding-top: 3%;
+}
+
+#brun
+{
+    background-color:#8a7260;
+    height: 70vh;
+    color: white;
+    font-family: poppins, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+#brun div
+{   
+    text-align: center;
+    font-size: 2.5vw;
+    padding-left: 19%;
+    padding-right: 19%;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+#brun p
+{
+    float: right;
+    padding-right: 2%;
+    font-size: 1vw;
+    font-style: italic;
+    display: flex;
+    justify-content: right;
+    
 }
