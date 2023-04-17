@@ -60,7 +60,7 @@ video
 
 #intro
 {
-    padding-bottom: 3%;
+    padding: 5% 10%;
 }
 
 html 
@@ -70,7 +70,7 @@ html
 
 #intro h1
 {
-    margin:2%;
+    margin: 3% 0%;
     text-align: center;
     color: purple;
     font-size: 2.7vw;
@@ -80,35 +80,33 @@ html
 #underrubrik
 {
     text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
-    font-size: 2vw;
+    font-size: 1.8vw;
     font-family: poppins, sans-serif;
     line-height: 1.6;
 }
 
+#sectionTo
+{
+    padding: 0% 11% 5% 11%;
+}
 
 #toflexbox
 {
     display: flex;
-    font-size: 1.6vw;
+    font-size: 1.3vw;
     font-family: poppins, sans-serif;
     line-height: 2;
-    padding-bottom: 5%;
 }
 
 #venstrekolonne
 {
     width: 50%;
-    padding-left: 10%;
     padding-right: 5%;
-
 }
 
 #hojrekolonne
 {
     width: 50%;
-    padding-right: 10%;
     padding-left: 5%;
 }
 
@@ -116,7 +114,7 @@ html
 
 #hojrekolonne img
 {
-    width: 70%;
+    width: 67%;
     margin: auto;
     display: block;
     padding: auto;
@@ -127,32 +125,34 @@ html
 #brun
 {
     background-color:#8a7260;
-    height: 70vh;
+    height: 60vh;
     color: white;
     font-family: poppins, sans-serif;
     display: flex;
     justify-content: center;
     align-content: center;
     flex-direction: column;
+    position: relative;
 }
 
 #brun div
 {   
     text-align: center;
-    font-size: 2.5vw;
-    padding-left: 19%;
-    padding-right: 19%;
+    font-size: 2.3vw;
+    padding: 0% 19%;
     font-weight: bold;
     line-height: 1.5;
+    font-style: italic;
 }
 
 #brun p
 {
-    float: right;
     padding-right: 2%;
+    padding-bottom: 1.5%;
     font-size: 1vw;
     font-style: italic;
     display: flex;
-    justify-content: right;
-    
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
