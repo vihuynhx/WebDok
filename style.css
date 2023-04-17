@@ -301,6 +301,7 @@ html
 {
     background-image: url(images/brun.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     color: #62422b;
     font-family: "georama-variable", sans-serif;
     display: flex;
