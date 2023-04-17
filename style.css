@@ -279,6 +279,8 @@ html
 #neglelak div
 {
     width: 50%;
+    display: grid;
+    align-content: center;
 }
 
 #neglelak div img
