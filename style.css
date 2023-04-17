@@ -4,6 +4,9 @@
     padding:0;
     box-sizing:border-box;
 }
+
+/*---------------------- FORSIDE ------------------------*/
+
 #marblevideo
 {
     height:100vh;
@@ -13,12 +16,14 @@
     text-align: center;
     object-fit: cover;
 }
+
 video
 {
     position: absolute;
     width: 100%;
     z-index: -1;
 }
+
 #videooverskrift
 {
     text-align: center;
@@ -31,7 +36,7 @@ video
 {
     color: white;
     font-size: 4.5vw;
-    font-family: georama-variable, sans-serif;
+    font-family: "georama-variable", sans-serif;
     margin: 0 10% 0 10%;
 }
 
@@ -60,7 +65,7 @@ video
 
 #intro
 {
-    padding-bottom: 3%;
+    padding: 5% 10%;
 }
 
 html 
@@ -68,55 +73,55 @@ html
     scroll-behavior: smooth;
 }
 
+
+
+/*---------------------- FØRSTE SEKTION MED TEKST ------------------------*/
+
 #intro h1
 {
-    margin:2%;
+    margin: 3% 0%;
     text-align: center;
     color: purple;
     font-size: 2.7vw;
-    font-family: georama-variable, sans-serif;
+    font-family: "georama-variable", sans-serif;
 }
 
 #underrubrik
 {
     text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
-    font-size: 2vw;
-    font-family: poppins, sans-serif;
+    font-size: 1.8vw;
+    font-family: "poppins", sans-serif;
     line-height: 1.6;
 }
 
+#sectionTo
+{
+    padding: 0% 11% 5% 11%;
+}
 
 #toflexbox
 {
     display: flex;
-    font-size: 1.6vw;
-    font-family: poppins, sans-serif;
+    font-size: 1.3vw;
+    font-family: "poppins", sans-serif;
     line-height: 2;
-    padding-bottom: 5%;
 }
 
 #venstrekolonne
 {
     width: 50%;
-    padding-left: 10%;
     padding-right: 5%;
-
 }
 
 #hojrekolonne
 {
     width: 50%;
-    padding-right: 10%;
     padding-left: 5%;
 }
 
-
-
 #hojrekolonne img
 {
-    width: 70%;
+    width: 67%;
     margin: auto;
     display: block;
     padding: auto;
@@ -124,35 +129,185 @@ html
     padding-top: 3%;
 }
 
+
+
+/*---------------------- CITAT I BRUNT AFSNIT ------------------------*/
+
 #brun
 {
     background-color:#8a7260;
-    height: 70vh;
+    height: 60vh;
     color: white;
-    font-family: poppins, sans-serif;
+    font-family: "georama-variable", sans-serif;
     display: flex;
     justify-content: center;
-    align-content: center;
     flex-direction: column;
+    position: relative;
 }
 
 #brun div
 {   
     text-align: center;
-    font-size: 2.5vw;
-    padding-left: 19%;
-    padding-right: 19%;
+    font-size: 2.3vw;
+    padding: 0% 19%;
     font-weight: bold;
     line-height: 1.5;
+    font-style: italic;
 }
 
 #brun p
 {
-    float: right;
     padding-right: 2%;
+    padding-bottom: 1.5%;
     font-size: 1vw;
     font-style: italic;
     display: flex;
-    justify-content: right;
-    
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
+
+
+
+/*---------------------- LILLA MARBLE AFSNIT ------------------------*/
+
+#lilla
+{
+    background-image: url(images/lilla.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 5% 10%;
+}
+
+#lilla div img{
+    width: 70%;
+}
+
+#lilla div
+{
+    width: 50%;
+}
+
+#lilla div p
+{
+    font-size: 1.3vw;
+    font-family: "poppins", sans-serif;
+    line-height: 2;
+}
+
+
+
+/*---------------------- CITAT I HVID AFSNIT ------------------------*/
+
+#hvidCitat
+{
+    height: 50vh;
+    font-family: "georama-variable", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#hvidCitat div
+{   
+    color: #62422b;
+    text-align: center;
+    font-size: 3vw;
+    padding: 0% 19%;
+    font-weight: bold;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+
+
+/*---------------------- JEANETTES KARRIERE ------------------------*/
+
+#karriere
+{
+    background-color: #e9e9e9;
+    display: flex;
+    padding: 5% 10%;
+}
+
+#karriere div{
+    width: 50%;
+    color: #62422b;
+}
+
+#karriere div:first-child{
+    display: grid;
+    align-content: center;
+}
+
+#karriere div h1
+{
+    font-family: "georama-variable", sans-serif;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+
+#karriere div p
+{
+    font-size: 1.3vw;
+    font-family: "poppins", sans-serif;
+    line-height: 2;
+}
+
+#karriere div:nth-child(2)
+{
+    display: flex;
+    justify-content: right;
+}
+
+#karriere div img{
+    width: 60%;
+}
+
+
+
+/*---------------------- AFSNIT MED GIF OG SLIDESHOW ------------------------*/
+
+#neglelak
+{
+    background-color: #e2e6ff;
+    display: flex;
+    padding: 5% 10%;
+}
+
+#neglelak div
+{
+    width: 50%;
+}
+
+#neglelak div img
+{
+    width: 70%;
+}
+
+#neglelak div p
+{
+    font-size: 1.3vw;
+    font-family: "poppins", sans-serif;
+    line-height: 2;
+}
+
+
+
+/*---------------------- TIDSLINJE ------------------------*/
+
+#tidslinje
+{
+    background-image: url(images/brun.jpg);
+    background-repeat: no-repeat;
+    color: #62422b;
+    font-family: "georama-variable", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10vw;
+    font-weight: 900;
+    height: 100vh;
+}
+
