@@ -369,6 +369,10 @@ html
     opacity: 0.5;
   }
 
+  .mySlides:last-child .frem {
+    pointer-events: none;
+    opacity: 0.5;
+  }
 
 /*---------------------- TIDSLINJE ------------------------*/
 
