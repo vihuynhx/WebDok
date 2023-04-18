@@ -322,6 +322,22 @@ html
 {
     display: flex;
     padding: 5% 10%; 
+    flex-wrap: wrap;
+}
+
+#fordomme div:first-child
+{
+    width: 100%;
+}
+
+#fordomme div:nth-child(2)
+{
+    padding-right: 3%;
+}
+
+#fordomme div:nth-child(3)
+{
+    padding-left: 3%;
 }
 
 #fordomme div
@@ -335,7 +351,6 @@ html
     font-family: "georama-variable", sans-serif;
     font-weight: bold;
     margin-bottom: 3%;
-    width: 100%;
 }
 
 #fordomme div p
@@ -344,3 +359,106 @@ html
     font-family: "poppins", sans-serif;
     line-height: 2;
 }
+
+
+
+/*------------------------ BEIGE AFSNIT MED TEKST --------------------------*/
+
+#beige
+{
+    background-color: #d6cabc;
+    display: flex;
+    padding: 5% 10%;
+}
+
+#beige div{
+    width: 50%;
+    color: #62422b;
+}
+
+#beige div:first-child{
+    display: grid;
+    align-content: center;
+}
+
+#beige div h1
+{
+    font-family: "georama-variable", sans-serif;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+
+#beige div p
+{
+    font-size: 1.3vw;
+    font-family: "poppins", sans-serif;
+    line-height: 2;
+}
+
+#beige div:nth-child(2)
+{
+    display: flex;
+    justify-content: right;
+}
+
+#beige div img{
+    width: 70%;
+}
+
+
+
+#beigeTo
+{
+    background-color: #d6cabc;
+    padding: 0% 12% 5% 12%;
+    color: #62422b;
+    text-align: center;
+}
+
+#beigeTo h1
+{
+    font-family: "georama-variable", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    margin: 4% 0%;
+}
+
+#beigeTo p
+{
+    font-size: 1.3vw;
+    font-family: "poppins", sans-serif;
+    line-height: 2;
+}
+
+
+
+/*------------------------ AFSNIT MED CIRKELDIAGRAM --------------------------*/
+
+#diagram
+{
+    text-align: center;
+    padding: 5% 10%;
+}
+
+#diagram h1
+{
+    font-family: "georama-variable", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 5%;
+    color: #62422b;
+    font-size: 3vw;
+}
+
+#diagram img
+{
+    width: 50%;
+}
+
+#diagram p{
+    font-size: 1.3vw;
+    font-family: "poppins", sans-serif;
+    line-height: 2;
+    margin-top: 5%;
+}
+
