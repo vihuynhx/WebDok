@@ -17,7 +17,7 @@
     object-fit: cover;
 }
 
-video
+#marble video
 {
     position: absolute;
     width: 100%;
@@ -37,7 +37,8 @@ video
     color: white;
     font-size: 4.5vw;
     font-family: "georama-variable", sans-serif;
-    margin: 0 10% 0 10%;
+    margin: 0% 10%;
+    line-height: 1.25;
 }
 
 #videooverskrift a i
@@ -63,11 +64,6 @@ video
     align-items: center;
 }
 
-#intro
-{
-    padding: 5% 10%;
-}
-
 html 
 {
     scroll-behavior: smooth;
@@ -77,13 +73,21 @@ html
 
 /*---------------------- FØRSTE SEKTION MED TEKST ------------------------*/
 
+#intro
+{
+    padding: 5% 10%;
+    background-color: #ffdeac;
+}
+
+
 #intro h1
 {
-    margin: 3% 0%;
+    margin-bottom: 3%;
     text-align: center;
     color: purple;
     font-size: 2.7vw;
     font-family: "georama-variable", sans-serif;
+    line-height: 1.7;
 }
 
 #underrubrik
@@ -91,12 +95,12 @@ html
     text-align: center;
     font-size: 1.8vw;
     font-family: "poppins", sans-serif;
-    line-height: 1.6;
+    line-height: 1.7;
 }
 
 #sectionTo
 {
-    padding: 0% 11% 5% 11%;
+    padding: 5% 11%;
 }
 
 #toflexbox
@@ -104,13 +108,15 @@ html
     display: flex;
     font-size: 1.3vw;
     font-family: "poppins", sans-serif;
-    line-height: 2;
+    line-height: 1.7;
 }
 
 #venstrekolonne
 {
     width: 50%;
     padding-right: 5%;
+    display: grid;
+    align-content: center;
 }
 
 #hojrekolonne
@@ -121,12 +127,11 @@ html
 
 #hojrekolonne img
 {
-    width: 67%;
+    width: 60%;
     margin: auto;
     display: block;
     padding: auto;
     padding-bottom: 10%;
-    padding-top: 3%;
 }
 
 
@@ -151,7 +156,7 @@ html
     font-size: 2.3vw;
     padding: 0% 19%;
     font-weight: bold;
-    line-height: 1.5;
+    line-height: 1.7;
     font-style: italic;
 }
 
@@ -180,19 +185,21 @@ html
 }
 
 #lilla div img{
-    width: 70%;
+    width: 65%;
 }
 
 #lilla div
 {
     width: 50%;
+    display: grid;
+    align-content: center;
 }
 
 #lilla div p
 {
     font-size: 1.3vw;
     font-family: "poppins", sans-serif;
-    line-height: 2;
+    line-height: 1.7;
 }
 
 
@@ -216,7 +223,7 @@ html
     font-size: 3vw;
     padding: 0% 19%;
     font-weight: bold;
-    line-height: 1.5;
+    line-height: 1.7;
     font-style: italic;
 }
 
@@ -252,7 +259,7 @@ html
 {
     font-size: 1.3vw;
     font-family: "poppins", sans-serif;
-    line-height: 2;
+    line-height: 1.7;
 }
 
 #karriere div:nth-child(2)
@@ -309,7 +316,7 @@ html
     width: 50%;
     font-size: 1.3vw;
     font-family: "poppins", sans-serif;
-    line-height: 2;
+    line-height: 1.7;
     text-align: justify;
     padding-right: 7%;
     padding-left: 7%;
@@ -423,7 +430,7 @@ html
 {
     font-size: 1.3vw;
     font-family: "poppins", sans-serif;
-    line-height: 2;
+    line-height: 1.7;
 }
 
 
@@ -458,7 +465,7 @@ html
 {
     font-size: 1.3vw;
     font-family: "poppins", sans-serif;
-    line-height: 2;
+    line-height: 1.7;
 }
 
 #beige div:nth-child(2)
@@ -487,13 +494,14 @@ html
     font-weight: bold;
     font-style: italic;
     margin: 4% 0%;
+    line-height: 1.7;
 }
 
 #beigeTo p
 {
     font-size: 1.3vw;
     font-family: "poppins", sans-serif;
-    line-height: 2;
+    line-height: 1.7;
 }
 
 
@@ -513,18 +521,38 @@ html
     font-style: italic;
     margin-bottom: 5%;
     color: #62422b;
-    font-size: 3vw;
+    font-size: 2.7vw;
+    line-height: 1.7;
 }
 
 #diagram img
 {
-    width: 50%;
+    width: 40%;
 }
 
 #diagram p{
     font-size: 1.3vw;
     font-family: "poppins", sans-serif;
-    line-height: 2;
+    line-height: 1.7;
     margin-top: 5%;
+}
+
+
+
+/*------------------------ AFSNIT MED VIDEO / INFOGRAPHIC --------------------------*/
+
+#videoAfsnit
+{
+    background-image: url(images/lilla.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    padding: 5% 10%;
+    text-align: center;
+}
+
+#videoAfsnit video
+{
+    width: 70%;
 }
 
