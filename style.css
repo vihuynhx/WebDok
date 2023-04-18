@@ -269,32 +269,98 @@ html
 
 /*---------------------- AFSNIT MED GIF OG SLIDESHOW ------------------------*/
 
-#neglelak
+.slideshow-container
 {
+    position: relative;
     background-color: #e2e6ff;
     display: flex;
-    padding: 5% 10%;
+    height: 70vh;
 }
-
-#neglelak div
-{
+  
+  .mySlides
+  {
+    display: none;
+    width: 100%;
+  }
+  
+  .slidebillede
+  {
+    float: left;
+    height: 100%;
+    object-fit: contain;
     width: 50%;
-    display: grid;
     align-content: center;
-}
+    display: flex;
+    justify-content: center;
 
-#neglelak div img
-{
-    width: 70%;
-}
+  }
 
-#neglelak div p
-{
+  .slidebillede img
+  {
+    width: 60%;
+    margin:auto;
+    padding: auto;
+    display: block;
+    }
+  
+  .text
+  {
+    float: right;
+    width: 50%;
     font-size: 1.3vw;
     font-family: "poppins", sans-serif;
     line-height: 2;
-}
+    text-align: justify;
+    padding-right: 7%;
+    padding-left: 7%;
 
+
+    }
+
+    .text p
+    {    display:flex;
+        align-content: center;
+        justify-content: center;
+    }
+
+  
+  .tilbage, .frem
+  {
+    position: absolute;
+    color: white;
+    cursor: pointer;
+    top:45%
+  }
+  
+  .frem
+  {
+    right: 0
+  }
+
+  .tilbage
+  {
+    padding-left: 3%;
+    left: 0;
+  }
+
+
+  .fade
+  {
+    animation-name: fade;
+    animation-duration: 1s;
+  }
+  
+  @keyframes fade 
+  {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  .mySlides:first-child .tilbage
+  {
+    pointer-events: none;
+    opacity: 0.5;
+  }
 
 
 /*---------------------- TIDSLINJE ------------------------*/
