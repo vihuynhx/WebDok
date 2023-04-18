@@ -29,4 +29,11 @@ function showSlides(n) {
   } else {
     tilbageButton.style.display = "block";
   }
+
+  // skjul frem-knappen på slide 3
+  if (slideIndex === slides.length) {
+    document.querySelector(".frem").style.display = "none";
+  } else {
+    document.querySelector(".frem").style.display = "block";
+  }
 }
