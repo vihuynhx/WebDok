@@ -284,17 +284,18 @@ html
     position: relative;
     background-color: #e2e6ff;
     display: flex;
-    height: 70vh;
+    height: 65vh;
+    padding: 5% 10%;
 }
   
-  .mySlides
-  {
+.mySlides
+{
     display: none;
     width: 100%;
-  }
+}
   
-  .slidebillede
-  {
+.slidebillede
+{
     float: left;
     height: 100%;
     object-fit: contain;
@@ -302,81 +303,79 @@ html
     align-content: center;
     display: flex;
     justify-content: center;
+}
 
-  }
-
-  .slidebillede img
-  {
-    width: 60%;
+.slidebillede img
+{
+    width: 70%;
     margin:auto;
-    padding: auto;
     display: block;
-    }
+}
   
-  .text
-  {
-    padding-top:8%;
+.text
+{
     float: right;
     width: 50%;
+    height: 100%;
     font-size: 1.3vw;
     font-family: "poppins", sans-serif;
     line-height: 1.7;
     text-align: justify;
-    padding-right: 7%;
-    padding-left: 7%;
+    display: flex;
+    align-items: center;
+}
 
-
-    }
-
-    .text p
-    {    display:flex;
-        align-content: center;
-        justify-content: center;
-    }
+.text p
+{   
+    display:flex;
+    align-content: center;
+    justify-content: center;
+}
 
   
-  .tilbage, .frem
-  {
+.tilbage, .frem
+{
     position: absolute;
     color: white;
     cursor: pointer;
     top:45%
-  }
+}
   
-  .frem
-  {
+.frem
+{
     right: 0
-  }
+}
 
-  .tilbage
-  {
+.tilbage
+{
     padding-left: 3%;
     left: 0;
-  }
+}
 
 
-  .fade
-  {
+.fade
+{
     animation-name: fade;
     animation-duration: 1s;
-  }
+}
   
-  @keyframes fade 
-  {
+@keyframes fade 
+{
     from {opacity: .4} 
     to {opacity: 1}
-  }
+}
   
-  .mySlides:first-child .tilbage
-  {
+.mySlides:first-child .tilbage
+{
     pointer-events: none;
     opacity: 0.5;
-  }
+}
 
-  .mySlides:last-child .frem {
+.mySlides:last-child .frem 
+{
     pointer-events: none;
     opacity: 0.5;
-  }
+}
 
 /*---------------------- TIDSLINJE ------------------------*/
 
@@ -589,13 +588,13 @@ html
 
 #venstrePil, #hojrePil
 {
-  cursor: pointer;
-  padding: 5%;
+    cursor: pointer;
+    padding: 5%;
 }
 
-/*------------------------ QOUTE --------------------------*/
+/*------------------------ QUOTE --------------------------*/
 
-#qoute
+#quote
 {
     height: 60vh;
     background-image: url(images/brun.jpg);
@@ -612,5 +611,4 @@ html
     text-align: center;
     line-height: 1.5;
     font-weight: bold;
-
 }
