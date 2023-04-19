@@ -225,7 +225,10 @@ html
     font-weight: bold;
     line-height: 1.7;
     font-style: italic;
+    padding-bottom: 3%;
+
 }
+
 
 
 
@@ -312,6 +315,7 @@ html
   
   .text
   {
+    padding-top:8%;
     float: right;
     width: 50%;
     font-size: 1.3vw;
@@ -509,7 +513,6 @@ html
 }
 
 
-
 /*------------------------ AFSNIT MED CIRKELDIAGRAM --------------------------*/
 
 #diagram
@@ -560,3 +563,54 @@ html
     width: 70%;
 }
 
+/*------------------------ GODE RÅD --------------------------*/
+
+#goderad
+{
+    background-color: #8a7260;
+    height: 60vh;
+}
+
+#goderad p
+{   padding-left: 3%;
+    padding-top: 4%;
+    color: white;
+    font-size: 2.7vw;
+    font-family: "georama-variable", sans-serif;
+}
+
+#karusel
+{
+    padding-top: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#venstrePil, #hojrePil
+{
+  cursor: pointer;
+  padding: 5%;
+}
+
+/*------------------------ QOUTE --------------------------*/
+
+#qoute
+{
+    height: 60vh;
+    background-image: url(images/brun.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    font-family: "georama-variable", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: bold;
+
+}
