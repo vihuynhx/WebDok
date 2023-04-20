@@ -7,9 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
     <script src="https://kit.fontawesome.com/f986eab603.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> <!-- Animationsbibliotek - CSS -->
     <link rel="stylesheet" href="https://use.typekit.net/akm3tan.css"> <!-- Adobe fonts -->
-  
     <title>Ulighed er ægte</title>
 </head>
 
@@ -176,8 +175,12 @@
         <!------------------------ TIDSLINJE MED SCROLL TIL SIDEN OG ANIMATIONER -------------------------->
 
         <section id="tidslinje">
-            <!--Tidslinje-->
-            <img src="images/tidslinje3.jpg" alt="Tidslinje">
+            <div class="containerScroll">
+                <div class="divScroll">
+                    <p> Tidslinje ☞ </p>
+                    <img src="images/tidslinje3.jpg" alt="Tidslinje">
+                </div>
+            </div>
         </section>
 
 
@@ -321,6 +324,7 @@
 
         </footer>
         
+        <!-- Animationsbibliotek - JAVASCRIPT -->
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
         AOS.init();

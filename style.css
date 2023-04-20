@@ -384,21 +384,46 @@ html
 
 #tidslinje
 {
-    background-image: url(images/brun.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     color: #62422b;
     font-family: "georama-variable", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 10vw;
+    font-size: 8vw;
     font-weight: 900;
+}
+
+.containerScroll
+{
+    background-image: url(images/brun.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.divScroll
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+#tidslinje .divScroll p
+{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    display: grid;
+    align-content: center;
 }
 
 #tidslinje img
 {
-    width: 100vw;
+    height: 100vh;
 }
 
 
