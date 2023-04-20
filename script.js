@@ -79,3 +79,4 @@ function forrigeBillede(){
     carousel[0].style.display = "block";
 }
 
+
