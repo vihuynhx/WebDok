@@ -620,3 +620,44 @@ html
     font-weight: bold;
     font-style: italic;
 }
+
+
+footer
+{
+    background-color: white;
+    height: 30vh;
+}
+
+#footerbox
+{
+    display: flex;
+    text-align: center;
+    padding-top: 5%;
+    font-family: "georama-variable", sans-serif;
+
+
+}
+
+#footerbox div
+{
+    justify-content: center;
+    width: 33%;
+    font-size: 1.1vw;
+
+}
+
+#footerbox div a
+{
+    text-decoration: none;
+    color: black;
+    margin-top: 5%;
+    font-weight: bold;
+}
+
+#navn
+{
+    text-align: center;
+    font-size: 1vw;
+    font-family: "georama-variable", sans-serif;
+    padding-top: 7%;
+}
