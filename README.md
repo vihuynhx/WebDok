@@ -1,3 +1,3 @@
 # WebDok
 
-Dette er et projekt hvor vi skulle lave en webdokumentar. 
+Dette er et skoleprojekt hvor vi skulle lave en webdokumentar. 
