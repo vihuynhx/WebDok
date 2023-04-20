@@ -652,6 +652,11 @@ footer
     font-weight: bold;
 }
 
+#footerbox div a:hover
+{
+    color: purple;
+}
+
 #navn
 {
     text-align: center;
