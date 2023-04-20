@@ -393,7 +393,11 @@ html
     align-items: center;
     font-size: 10vw;
     font-weight: 900;
-    height: 100vh;
+}
+
+#tidslinje img
+{
+    width: 100vw;
 }
 
 
@@ -569,15 +573,16 @@ html
 #goderad
 {
     background-color: #8a7260;
-    height: 60vh;
+    height: 55vh;
 }
 
 #goderad p
-{   padding-left: 3%;
-    padding-top: 4%;
+{  
+    padding-top: 5%;
     color: white;
     font-size: 2.7vw;
     font-family: "georama-variable", sans-serif;
+    text-align: center;
 }
 
 #karusel
