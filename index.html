@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
     <script src="https://kit.fontawesome.com/f986eab603.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://use.typekit.net/akm3tan.css"> <!-- Adobe fonts -->
   
     <title>Ulighed er ægte</title>
@@ -46,12 +47,13 @@
         <div id="toflexbox">
                 <div id="venstrekolonne">
                     Det er 2023 og stadig den dag i dag, ser vi stor ulighed mellem mænd og kvinder på arbejdsmarkedet. Det kommer til udtryk på flere måder. <br> <br>
-                    Vi ser statistik der tyder på ren og skær skønsmæssig lønforskel, derudover ser vi en betydelig underrepræsentation af kvinder i højere lederstillinger. <br><br>
+                    Vi ser statistik der tyder på ren og skær kønsmæssig lønforskel, derudover ser vi en betydelig underrepræsentation af kvinder i højere lederstillinger. <br><br>
                     Vi ved også at kvinder bliver mere bedømt mere på deres personlige egenskaber og fremtoning, fremfor kvalifikationer og erfaringer. <br>Dette betyder at kvinder ofte bliver fravalgt, selvom de har samme eller endda flere kompetencer end mænd 
                 </div>
 
                 <div id="hojrekolonne">
-                    <img src="images/0 ud af 195 lande.png" alt="nul"> 
+                    <img data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000"
+                    data-aos-easing="ease-in-sine" src="images/0 ud af 195 lande.png" alt="nul"> 
                     En undersøgelse af Institut for Menneskerettigheder belyser derudover at der er en forskelsbehandling i ansættelsesprocessen, 
                     hvor kvinder oftere bliver spurgt om familiesituation og planer om børn under jobsamtaler.
                 </div>
@@ -77,7 +79,8 @@
 
         <section id="lilla">
             <div>
-                <img src="images/negle.jpeg" alt="Nails">
+                <img data-aos="fade-right" data-aos-offset="200"
+                data-aos-easing="ease-in-sine" data-aos-duration="1000" src="images/negle.jpeg" alt="Nails">
             </div>
             <div>
                 <p> Jeanette har været igennem møllen. Hun har som kvinde oplevet at man har en smallere sti at gå på. Hun har oplevet fordomme om hvordan man skal se ud og påføre sig som kvinde i skønhedsbranchen. 
@@ -102,7 +105,6 @@
             <audio controls autoplay>
                 <source src="images/De er nogle sminkedukker.m4a" type="audio/mpeg">
             </audio>
-
         </section>
             
 
@@ -121,7 +123,7 @@
                 </p>
             </div>
             <div>
-                <img src="images/profbillede.jpeg" alt="Billede af Jeanette">
+                <img data-aos="zoom-in" data-aos-duration="1500" src="images/profbillede.jpeg" alt="Billede af Jeanette">
             </div>
         </section>
 
@@ -216,7 +218,7 @@
                 </p>
             </div>
             <div>
-                <img src="images/jeanette.jpg" alt="Billede af Jeanette Ulriksen">
+                <img data-aos="zoom-out" data-aos-duration="1500" src="images/jeanette.jpg" alt="Billede af Jeanette Ulriksen">
             </div>
         </section>
 
@@ -251,7 +253,7 @@
                 Og ja, der er plads til flere. Mange flere.” 
             </h1>
 
-            <img src="images/diagram.png" alt="Cirkeldiagram">
+            <img data-aos="flip-up" data-aos-duration="1000" src="images/diagram.png" alt="Cirkeldiagram">
 
             <p>
                 Ifølge en rapport fra Erhvervsstyrelsen fra 2021 om kvinder i iværksætteri <br> udgør kvinder 36% af alle selvstændige erhvervsdrivende i Danmark.
@@ -321,6 +323,11 @@
 
         </footer>
         
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+        AOS.init();
+        </script>
+
     </body>
     
 </html>
